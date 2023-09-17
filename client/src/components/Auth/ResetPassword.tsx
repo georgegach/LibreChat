@@ -36,7 +36,7 @@ function ResetPassword() {
             {localize('com_auth_reset_password_success')}
           </h1>
           <div
-            className="relative mb-8 mt-4 rounded border border-green-400 bg-green-100 px-4 py-3 text-center text-green-700"
+            className="relative mb-8 mt-4 rounded border border-indigo-400 bg-indigo-100 px-4 py-3 text-center text-indigo-700"
             role="alert"
           >
             {localize('com_auth_login_with_new_password')}
@@ -44,7 +44,7 @@ function ResetPassword() {
           <button
             onClick={() => navigate('/login')}
             aria-label={localize('com_auth_sign_in')}
-            className="w-full transform rounded-sm bg-green-500 px-4 py-3 tracking-wide text-white transition-colors duration-200 hover:bg-green-600 focus:bg-green-600 focus:outline-none"
+            className="w-full transform rounded-sm bg-indigo-500 px-4 py-3 tracking-wide text-white transition-colors duration-200 hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none"
           >
             {localize('com_auth_continue')}
           </button>
@@ -64,7 +64,7 @@ function ResetPassword() {
               role="alert"
             >
               {localize('com_auth_error_invalid_reset_token')}{' '}
-              <a className="font-semibold text-green-600 hover:underline" href="/forgot-password">
+              <a className="font-semibold text-indigo-600 hover:underline" href="/forgot-password">
                 {localize('com_auth_click_here')}
               </a>{' '}
               {localize('com_auth_to_try_again')}
@@ -109,12 +109,12 @@ function ResetPassword() {
                     },
                   })}
                   aria-invalid={!!errors.password}
-                  className="peer block w-full appearance-none rounded-t-md border-0 border-b-2 border-gray-300 bg-gray-50 px-2.5 pb-2.5 pt-5 text-sm text-gray-900 focus:border-green-500 focus:outline-none focus:ring-0"
+                  className="peer block w-full appearance-none rounded-t-md border-0 border-b-2 border-gray-300 bg-gray-50 px-2.5 pb-2.5 pt-5 text-sm text-gray-900 focus:border-indigo-500 focus:outline-none focus:ring-0"
                   placeholder=" "
                 ></input>
                 <label
                   htmlFor="password"
-                  className="absolute left-2.5 top-4 z-10 origin-[0] -translate-y-4 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:text-green-500"
+                  className="absolute left-2.5 top-4 z-10 origin-[0] -translate-y-4 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:text-indigo-500"
                 >
                   {localize('com_auth_password')}
                 </label>
@@ -143,12 +143,12 @@ function ResetPassword() {
                       value === password || localize('com_auth_password_not_match'),
                   })}
                   aria-invalid={!!errors.confirm_password}
-                  className="peer block w-full appearance-none rounded-t-md border-0 border-b-2 border-gray-300 bg-gray-50 px-2.5 pb-2.5 pt-5 text-sm text-gray-900 focus:border-green-500 focus:outline-none focus:ring-0"
+                  className="peer block w-full appearance-none rounded-t-md border-0 border-b-2 border-gray-300 bg-gray-50 px-2.5 pb-2.5 pt-5 text-sm text-gray-900 focus:border-indigo-500 focus:outline-none focus:ring-0"
                   placeholder=" "
                 ></input>
                 <label
                   htmlFor="confirm_password"
-                  className="absolute left-2.5 top-4 z-10 origin-[0] -translate-y-4 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:text-green-500"
+                  className="absolute left-2.5 top-4 z-10 origin-[0] -translate-y-4 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:text-indigo-500"
                 >
                   {localize('com_auth_password_confirm')}
                 </label>
@@ -177,7 +177,7 @@ function ResetPassword() {
                 disabled={!!errors.password || !!errors.confirm_password}
                 type="submit"
                 aria-label={localize('com_auth_submit_registration')}
-                className="w-full transform rounded-sm bg-green-500 px-4 py-3 tracking-wide text-white transition-colors duration-200 hover:bg-green-600 focus:bg-green-600 focus:outline-none"
+                className="w-full transform rounded-sm bg-indigo-500 px-4 py-3 tracking-wide text-white transition-colors duration-200 hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none"
               >
                 {localize('com_auth_continue')}
               </button>

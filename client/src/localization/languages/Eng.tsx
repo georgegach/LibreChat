@@ -106,7 +106,7 @@ export default {
   com_auth_click_here: 'Click here',
   com_auth_to_try_again: 'to try again.',
   com_auth_submit_registration: 'Submit registration',
-  com_auth_welcome_back: 'Welcome back',
+  com_auth_welcome_back: 'GachGPT',
   com_endpoint_open_menu: 'Open Menu',
   com_endpoint_bing_enable_sydney: 'Enable Sydney',
   com_endpoint_bing_to_enable_sydney: 'To enable Sydney',

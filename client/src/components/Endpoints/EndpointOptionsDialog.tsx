@@ -94,7 +94,7 @@ const EndpointOptionsDialog = ({
               </DialogButton>
               <DialogButton
                 onClick={saveAsPreset}
-                className="dark:hover:gray-400 ml-2 border-gray-700 bg-green-600 text-white hover:bg-green-700 dark:hover:bg-green-800"
+                className="dark:hover:gray-400 ml-2 border-gray-700 bg-indigo-600 text-white hover:bg-indigo-700 dark:hover:bg-indigo-800"
               >
                 {localize('com_endpoint_save_as_preset')}
               </DialogButton>

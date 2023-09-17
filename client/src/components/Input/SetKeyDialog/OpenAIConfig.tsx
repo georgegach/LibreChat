@@ -107,7 +107,7 @@ const OpenAIConfig = ({ userKey, setUserKey, endpoint }: TConfigProps) => {
             checked={showPanel}
             onCheckedChange={() => setShowPanel(!showPanel)}
           >
-            <Checkbox.Indicator className="flex h-[20px] w-[20px] items-center justify-center rounded-[3.5px] bg-green-600">
+            <Checkbox.Indicator className="flex h-[20px] w-[20px] items-center justify-center rounded-[3.5px] bg-indigo-600">
               <CheckIcon />
             </Checkbox.Indicator>
           </Checkbox.Root>
